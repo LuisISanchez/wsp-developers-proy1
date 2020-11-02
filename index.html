@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primer pagina web</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="icon" href="image/kodeshil.png">
+</head>
+
+<body>
+    <header class="container">
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#Acerca">Acerca de mi</a></li>
+                <li><a href="#Portafolio">Portafolio</a></li>
+                <li><a href="#Contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="main" class="container">
+        <h1>Mi primer pagina web</h1>
+        <img src="image/img1.jpeg" alt="">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui ipsum velit nihil cumque facilis sapiente
+            nesciunt necessitatibus numquam tempora quas. Dolor eos consectetur minus neque repellat sit fugit earum
+            molestiae!</p>
+
+    </section>
+    <section id="Acerca" class="container">
+        <h2>Acerca de mi</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi corporis placeat exercitationem, facilis dicta
+            sint quia itaque asperiores iste modi alias quisquam officia est nulla. Porro consequatur commodi eos
+            beatae.</p>
+
+    </section>
+    <section id="Portafolio" class="container">
+        <h2>Portafolio</h2>
+        <div class="cards">
+            <div class="card">
+                <div class="card-img">
+                    <img src="image/img1.jpeg" alt="imagen proyecto 1">
+                </div>
+                <div class="card-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi expedita in aut illo dolore molestias facilis accusantium? Omnis rerum, obcaecati dolorum animi facilis laborum consectetur totam asperiores autem expedita culpa.</div>
+                <div class="card-footer">2020-11-02</div>
+            </div>
+            <div class="card">
+                <div class="card-img">
+                    <img src="image/img1.jpeg" alt="imagen proyecto 1">
+                </div>
+                <div class="card-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam libero quis provident. Corporis beatae voluptate numquam architecto quae aperiam fuga nostrum ea iusto vel. Aspernatur velit excepturi harum aliquid facilis.</div>
+                <div class="card-footer">2020-11-02</div>
+            </div>
+            <div class="card">
+                <div class="card-img">
+                    <img src="image/img1.jpeg" alt="imagen proyecto 1">
+                </div>
+                <div class="card-content">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione tempore deserunt saepe facilis hic quibusdam praesentium at dignissimos eos eum, obcaecati dolorem minus corrupti, dolorum sapiente error, numquam suscipit aliquid?</div>
+                <div class="card-footer">2020-11-02</div>
+            </div>
+        </div>
+    </section>
+    <section id="Contacto" class="container">
+        <h2>Contacto</h2>
+        <form action="">
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="ctc_inp_email" required placeholder="Email">
+            </div>
+            <div class="form-group">
+                <label for="nombre">Nombre:</label>
+                <input type="text" name="nombre" id="ctc_inp_nombre" required placeholder="Nombre">
+            </div>
+            <div class="form-group">
+                <label for="Asunto">Asunto:</label>
+                <input type="text" name="asunto" id="ctc_inp_asunto" required placeholder="Asunto">
+            </div>
+            <input type="submit" value="Enviar" class="btn"></button>
+        </form>
+    </section>
+</body>
+
+</html>

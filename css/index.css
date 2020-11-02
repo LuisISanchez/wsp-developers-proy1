@@ -1,0 +1,116 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+nav > ul {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 1rem;
+}
+
+nav > ul > li {
+    list-style: none;
+    padding: 1rem 1rem 0 1rem;
+    width: 100%;
+    box-sizing: border-box;
+    min-height: 2.5rem;
+    border-bottom: 2px solid transparent;
+    text-align: center;
+}
+
+nav > ul > li:hover{
+    border-bottom: 2px solid #15aa15;
+}
+
+nav > ul > li > a {
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+}
+
+.container {
+    max-width: 80%;
+    margin: 0rem auto 2rem auto;
+}
+
+h1, h2{
+    text-align: center;
+    padding-bottom: .5rem;
+}
+
+#main > img{
+    display: block;
+    margin: 2rem auto;
+}
+
+form {
+    max-width: 40%;
+    margin: 0 auto;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    padding: .5rem 0;
+}
+
+form .btn{
+    display: block;
+    align-self: center;
+    margin: .4rem auto;
+    padding: .5rem;
+}
+
+p{
+    text-align: justify;
+}
+
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card{
+    max-width: 30%;
+    border-radius: 1rem;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.card > .card-img{
+    background-color: #eee;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.card > .card-img > img{
+    max-width: 100%;
+    min-height: 10rem;
+    border-radius: 1rem 1rem 0 0;
+}
+
+
+.card > .card-content {
+    padding: .5rem;
+    border-bottom: 1px solid #ccc;
+    
+}
+
+.card > .card-footer {
+    padding: .5rem;
+    color: #777;
+    background-color: #eee;
+    border-radius: 0 0 1rem 1rem;
+}
